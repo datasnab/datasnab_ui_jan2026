@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DATA SNAB IT Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="top-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">IT Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html" class="active">Contact US</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="book-online.html">Book Online</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="logo-section">
+            <div class="container">
+                <div class="logo-wrapper">
+                    <div class="logo-graphic">
+                        <div class="logo-triangle"></div>
+                        <div class="logo-bolt"></div>
+                    </div>
+                    <div class="logo-text">
+                        <h1>IT Services</h1>
+                        <p class="company-name">DATA SNAB</p>
+                    </div>
+                </div>
+                <p class="tagline">Providing a Complete Suite of IT Solutions</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="animated-bg"></div>
+        <div class="container">
+            <div class="contact-header">
+                <h2 class="contact-title">Get In Touch</h2>
+                <p class="contact-subtitle">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-left">
+                    <div class="form-container">
+                        <div class="form-header">
+                            <h3><i class="fas fa-paper-plane"></i> Send us a Message</h3>
+                            <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                        </div>
+                        
+                        <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="741fb790-4b5b-4049-83c6-502d75731f8a">
+                            <input type="hidden" name="subject" value="New Contact Form Submission from DATA SNAB">
+                            <input type="hidden" name="to" value="lalitha.vn@gmail.com">
+                            <input type="hidden" name="from_name" value="DATA SNAB Website">
+                            <input type="hidden" name="redirect" value="false">
+                            
+                            <div class="form-group">
+                                <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                                <span class="input-focus"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                                <span class="input-focus"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                                <span class="input-focus"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message"><i class="fas fa-comment-alt"></i> Your Message</label>
+                                <textarea id="message" name="message" placeholder="Tell us more about your inquiry..." rows="6" required></textarea>
+                                <span class="input-focus"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                                <span class="btn-loader"></span>
+                            </button>
+                        </form>
+                        <div id="formMessage" class="form-message"></div>
+                    </div>
+                </div>
+                
+                <div class="contact-right">
+                    <div class="contact-info-card">
+                        <div class="info-card-header">
+                            <h3><i class="fas fa-info-circle"></i> Contact Information</h3>
+                        </div>
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Address</h4>
+                                    <p>611 Gateway Blvd, Suite 120<br>South San Francisco, CA 94080</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:510-203-8046">510-203-8046</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:lalitha.vn@gmail.com">lalitha.vn@gmail.com</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Business Hours</h4>
+                                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-elements">
+                        <div class="float-icon float-1"><i class="fas fa-code"></i></div>
+                        <div class="float-icon float-2"><i class="fas fa-server"></i></div>
+                        <div class="float-icon float-3"><i class="fas fa-cloud"></i></div>
+                        <div class="float-icon float-4"><i class="fas fa-shield-alt"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Support</a></li>
+                        <li><a href="contact.html">Give us your feedback</a></li>
+                        <li><a href="careers.html">Join our team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow us on twitter</h4>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <i class="fab fa-twitter"></i>
+                <p>&copy; 2035 by IT SERVICES. Powered and secured by Wix</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Icon -->
+    <div class="chat-icon">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
